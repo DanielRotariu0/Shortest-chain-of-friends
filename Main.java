@@ -114,7 +114,7 @@ public class Main {
     }
 
     static void printShortestChainOfFriends(SocialNetwork socialNetwork, User user1, User user2)
-    {o
+    {
         List<User> shortestChain;
         shortestChain = socialNetwork.findShortestChainOfFriends(user1, user2);
         if(shortestChain==null){
